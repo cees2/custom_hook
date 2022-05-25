@@ -1,0 +1,38 @@
+body{
+  background-color: #333;
+  color: white;
+  font-family: arial;
+}
+
+.container{
+  width: 40%;
+  background-color: white;
+  color: black;
+  margin: 5rem auto;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.input input{
+  display: block;
+  margin: .5rem 0;
+  height: 2rem;
+  width: 50%;
+}
+
+.container button{
+  width: 20%;
+  height: 2.5rem;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.input.invalid input{
+  background-color: rgba(184, 9, 9, 0.4);
+}
+
+p{
+  font-weight: normal;
+}
